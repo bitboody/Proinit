@@ -5,8 +5,6 @@ dotenv.config({
   path: '../config/.env'
 });
 
-
-
 async function initialize(name, desc, bool) {
   const input = prompt();
 
