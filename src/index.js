@@ -1,7 +1,6 @@
 import { Octokit } from "octokit";
 import prompt from 'prompt-sync';
 import fs from 'fs';
-import nodeCmd from 'node-cmd';
 import dotenv from 'dotenv';
 dotenv.config({
   path: '../config/.env'

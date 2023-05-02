@@ -20,7 +20,6 @@
   "homepage": "https://github.com/brplcc/Proinit#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "node-cmd": "^5.0.0",
     "octokit": "^2.0.14",
     "prompt-sync": "^4.2.0"
   }
