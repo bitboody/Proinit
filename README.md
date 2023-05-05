@@ -1,2 +1,2 @@
 # Proinit
-Project initializer
+Project initializer using the Github API
