@@ -8,7 +8,6 @@ dotenv.config({
 
 async function initialize(name, desc, bool) {
   const input = prompt();
-  const dir = '../../';
 
   const octokit = new Octokit({
     auth: process.env.TOKEN  
@@ -29,8 +28,8 @@ async function initialize(name, desc, bool) {
       'X-GitHub-Api-Version': '2022-11-28'
     }
   });
-  
-  fs.access(`${dir}${name}`, (error) => {
+
+  fs.access(`../../${name}`, (error) => {
     if (error) {
       console.log(`Run this command: git clone https://github.com/brplcc/${name.replaceAll(' ', '-')}.git`);
     } else {
